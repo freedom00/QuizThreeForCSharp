@@ -50,6 +50,10 @@ namespace QuizThreeForCSharp
             }
             studentsList.Add(student);
             MessageBox.Show(this, $"There are {studentsList.Count} students added", "Results", MessageBoxButton.OK, MessageBoxImage.Information);
+            tbId.Text = "";
+            tbFirstName.Text = "";
+            tbLastName.Text = "";
+            cbIsRegisterd.IsChecked = false;
         }
 
         private void btShowStudents_Click(object sender, RoutedEventArgs e)
