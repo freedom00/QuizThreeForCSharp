@@ -49,7 +49,7 @@ namespace QuizThreeForCSharp
                 student.IsRegisterd = false;
             }
             studentsList.Add(student);
-            MessageBox.Show(this, $"There are {studentsList.Count} students added", "Results", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(this, $"There are {studentsList.Count} students added", "Question 1", MessageBoxButton.OK, MessageBoxImage.Information);
             tbId.Text = "";
             tbFirstName.Text = "";
             tbLastName.Text = "";
