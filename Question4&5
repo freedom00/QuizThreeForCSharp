@@ -1,0 +1,6 @@
+4. What is the difference between code-first approach and database approach in Entity Framework?
+In code first approach, we will first create entity classes with properties defined in it. Entity framework will create the database and tables based on the entity classes defined. So database is generated from the code. When the dot net code is run database will get created.
+In database approach, Database and tables are created first. Then you create entity Data Model using the created database.
+
+5. What is the MVVM design pattern?
+MVVM is the abbreviation of Model-View-ViewModel. Models hold the application data. Views dispaly the elements and controls on the screen. View Models transform model information into values that can be displayed on a view.
