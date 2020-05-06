@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizThreeForCSharp"
         mc:Ignorable="d"
-        Title="StudentsListDialog" Height="450" Width="600">
+        Title="StudentsListDialog" Height="450" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <ListView x:Name="lvStudents" Margin="10,55,10,10">
             <ListView.View>
